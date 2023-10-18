@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FEFAE0;
+}
+
+.calculadora{
+    background-color: #77A18A;
+    border: 2px solid #606C38;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+h1{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    background-color: #6D912F;
+    padding: 20px;
+    background-size: 30px 10px;
+    border-radius: 15px;
+    border: 2px solid #606C38;
+}
+
+.input{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    width: 97%;
+    margin-bottom: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    background-color: #a7af7c;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.button{
+    font-size: 18px;
+    padding: 10px;
+    background-color:#5CD121;
+    color: #fff;
+    border: 1px #2c5074 solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #151E3F;
+    box-shadow: 0 0 5px #DDA15E, inset 0 0 30px #3ce7e7;
+} 
+
+.form {
+    background-color: #283618;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border-left: 2px inset #7A93AC;
+}
+
+.igual{
+    font-size: 18px;
+    padding: 10px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2E5902;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+.igual:hover{
+    background-color: #151E3F;
+    box-shadow: inset 0 0 30px #3ce7e7;
+}
+
+.cleaning{
+    font-size: 18px;
+    padding: 10px;
+    background-color: #2E5902;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Sombra inicial */
+    transition: box-shadow 0.3s linear; 
+}
+
+.cleaning:hover{
+    background-color: #151E3F;
+    box-shadow: 0 0 5px #DDA15E, inset 0 0 30px #3ce7e7;
+}
+
+.buttonspecial{
+    font-size: 18px;
+    padding: 10px;
+    background-color: #6D912F;
+    color: #fff;
+    border: 1.5px black solid;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: box-shadow 0.3s linear;
+}
+
+.buttonspecial:hover{
+    background-color: #151E3F;
+    box-shadow: 0 0 5px #DDA15E, inset 0 0 30px #3ce7e7;
+}
+
+.buttonpoint{
+    font-size: 18px;
+    padding: 10px;
+    background-color: #6D912F;
+    color: #fff;
+    border: 1.5px black solid;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: box-shadow 0.3s linear;
+}
+.buttonpoint:hover{
+    background-color: #151E3F;
+    box-shadow: 0 0 5px #DDA15E, inset 0 0 30px #3ce7e7;
+}

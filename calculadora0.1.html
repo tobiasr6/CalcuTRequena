@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div>
+            <h1 id="TituloH1">Calculadora</h1>
+        </div>
+        <div >
+            <form id = "Formulario" class="form">
+                <input type="text" id="InpuT" readonly class="input">
+            </form>
+        </div>
+        <script src="calculadora.js"></script>
+        <br>
+        <div class="botones">
+            <button onclick="appendisplayValue(`*`)" class="buttonspecial">*</button>
+            <button onclick="appendisplayValue(`7`)"class="button">7</button>
+            <button onclick="appendisplayValue(`8`)"class="button">8</button>
+            <button onclick="appendisplayValue(`9`)"class="button">9</button>
+            <button onclick="appendisplayValue(`/`)"class="buttonspecial">/</button>
+            <button onclick="appendisplayValue(`4`)"class="button">4</button>
+            <button onclick="appendisplayValue(`5`)"class="button">5</button>
+            <button onclick="appendisplayValue(`6`)"class="button">6</button>
+            <button onclick="appendisplayValue(`+`)"class="buttonspecial">+</button>
+            <button onclick="appendisplayValue(`1`)"class="button">1</button>
+            <button onclick="appendisplayValue(`2`)"class="button">2</button>
+            <button onclick="appendisplayValue(`3`)"class="button">3</button>
+            <button onclick="appendisplayValue(`-`)"class="buttonspecial">-</button>
+            <button onclick="appendisplayValue(`0`)"class="button">0</button>
+            <button onclick="appendisplayValue(`.`)"class="buttonpoint">.</button>
+            <button onclick="cleaning()" class="cleaning" id="clear">C</button>
+        </div>
+        <div class="degradado">
+            <button onclick="calcular()" class="igual" id="equals">=</button>
+        </div>
+    </div>
+</body>
+</html>
